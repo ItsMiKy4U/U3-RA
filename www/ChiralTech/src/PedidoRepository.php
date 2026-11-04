@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-final class ReservaRepository
+final class PedidoRepository
 {
     public function __construct(private PDO $pdo) {}
 
     public function crear(array $datos): int
     {
         $statement = $this->pdo->prepare(
-            'INSERT INTO reservas
-             (nombre_cliente, correo, telefono, fecha, hora, personas, mensaje, producto_id)
+            'INSERT INTO pedidos
+             (nombre_cliente, correo, telefono, fecha, hora, cantidad, mensaje, producto_id)
              VALUES
-             (:nombre, :correo, :telefono, :fecha, :hora, :personas, :mensaje, :producto_id)'
+             (:nombre, :correo, :telefono, :fecha, :hora, :cantidad, :mensaje, :producto_id)'
         );
         $statement->execute([
             'nombre' => trim((string) $datos['nombre']),
@@ -19,7 +19,7 @@ final class ReservaRepository
             'telefono' => trim((string) $datos['telefono']),
             'fecha' => $datos['fecha'],
             'hora' => $datos['hora'],
-            'personas' => (int) $datos['personas'],
+            'cantidad' => (int) $datos['personas'], // El input del form sigue llamándose 'personas' pero lo guardamos como 'cantidad'
             'mensaje' => trim((string) ($datos['mensaje'] ?? '')),
             'producto_id' => empty($datos['producto_id']) ? null : (int) $datos['producto_id'],
         ]);
@@ -29,10 +29,9 @@ final class ReservaRepository
     public function listar(): array
     {
         return $this->pdo->query(
-            'SELECT r.*, p.nombre AS producto
-             FROM reservas r LEFT JOIN productos p ON p.id = r.producto_id
-             ORDER BY r.fecha DESC, r.hora DESC'
+            'SELECT p.*, prod.nombre AS producto
+             FROM pedidos p LEFT JOIN productos prod ON prod.id = p.producto_id
+             ORDER BY p.fecha DESC, p.hora DESC'
         )->fetchAll();
     }
 }
- 

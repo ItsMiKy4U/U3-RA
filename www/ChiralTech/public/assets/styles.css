@@ -1,5 +1,272 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap');
-:root{--cream:#f7f3ec;--paper:#fffdf9;--ink:#252b24;--green:#263d33;--lime:#c7d49b;--orange:#d88c61;--muted:#777b70;--line:#dedbd1;--serif:"Playfair Display",Georgia,serif;--sans:"DM Sans",Arial,sans-serif}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.65}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button,a{touch-action:manipulation}.site-header{height:88px;padding:0 7.2%;display:flex;align-items:center;justify-content:space-between;background:var(--cream);position:relative;z-index:5;border-bottom:1px solid rgba(37,43,36,.08)}.brand{display:inline-flex;align-items:center;gap:9px;font-size:13px;line-height:1.05;letter-spacing:.08em}.brand strong{font-size:17px;letter-spacing:.14em}.brand-mark{font-size:34px;color:#859268}.main-nav,.header-actions{display:flex;align-items:center;gap:36px}.main-nav a,.admin-link,.nav-button{font-size:12px;letter-spacing:.06em}.main-nav a:hover,.admin-link:hover,.text-link:hover,.back-link:hover{color:#a35f3b}.admin-link{border-bottom:1px solid var(--ink);padding:7px 0}.inline-form{display:inline}.nav-button{border:0;background:none;cursor:pointer}.hero{background:var(--green);color:var(--cream);min-height:610px;padding:100px 11% 74px;position:relative;display:grid;grid-template-columns:1fr 1fr;align-items:center;overflow:hidden}.hero-copy{position:relative;z-index:1}.eyebrow,.section-kicker,.form-title,.teaching-note>span{font-size:10px;letter-spacing:.18em;font-weight:700}.eyebrow{color:var(--lime)}h1,h2,h3,p{margin-top:0}.hero h1,.section h2,.reservation-copy h2,.closing p,.account-card h1,.admin-page h1{font-size:clamp(42px,6vw,76px);line-height:1.08;letter-spacing:-.04em;font-weight:500;margin:22px 0}.hero h1 em,.section h2 em,.reservation-copy h2 em,.admin-page h1 em,.account-card h1 em{font-family:var(--serif);font-weight:500;color:var(--lime)}.hero-copy>p{max-width:380px;color:#d2d7ca;margin:0 0 30px}.button{display:inline-flex;justify-content:center;align-items:center;gap:14px;padding:13px 20px;border:0;font-size:11px;font-weight:700;letter-spacing:.08em;cursor:pointer;transition:transform .18s,background .18s}.button:hover{transform:translateY(-2px)}.button-light{background:var(--cream);color:var(--green)}.button-dark{background:var(--green);color:white}.button-dark:hover{background:#395445}.hero-art{height:360px;position:relative;display:flex;align-items:center;justify-content:center}.sun-disc{position:absolute;width:300px;height:300px;border-radius:50%;background:#d99a66;opacity:.94;right:7%;top:1%}.cup{width:220px;height:150px;border-radius:10px 10px 75px 75px;background:#f7f0e3;position:absolute;top:123px;right:23%;box-shadow:10px 22px 34px #172c2480;z-index:2;transform:rotate(-7deg)}.coffee{height:30px;position:absolute;top:6px;left:8px;right:8px;background:#604533;border-radius:50%}.cup-handle{width:75px;height:75px;position:absolute;right:-50px;top:27px;border:15px solid #f7f0e3;border-radius:50%;z-index:-1}.saucer{width:285px;height:37px;border-radius:50%;background:#e8dfd0;position:absolute;top:261px;right:16%;transform:rotate(-7deg);box-shadow:8px 12px 20px #14251e80}.steam{position:absolute;z-index:3;width:28px;height:83px;border-left:2px solid #f7f0e3;border-radius:50%;top:52px;opacity:.75;transform:rotate(18deg)}.steam-one{right:46%}.steam-two{right:37%;top:38px;height:96px}.art-caption{position:absolute;right:0;bottom:22px;font:italic 19px var(--serif);color:var(--lime);transform:rotate(-8deg)}.hero-bottom{position:absolute;left:11%;right:11%;bottom:27px;display:flex;justify-content:space-between;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#c9d0c3}.section{padding:110px 11%}.intro{display:grid;grid-template-columns:1fr 1.2fr .9fr;gap:44px;align-items:start;background:var(--paper)}.section-kicker{color:#788465}.section-kicker span{padding-left:12px;color:#bd7955}.intro h2,.section-heading h2,.reservation-copy h2{font-size:clamp(40px,5vw,62px)}.section h2{margin-top:0}.intro-note{padding-top:45px;color:#686d63}.intro-note p{max-width:310px;margin-bottom:24px}.text-link{font-size:11px;font-weight:700;letter-spacing:.04em;border-bottom:1px solid #a7a99e;padding-bottom:5px;display:inline-flex;gap:14px}.text-link span{color:#b1704c}.menu-section{padding-top:100px;padding-bottom:90px}.section-heading{display:flex;justify-content:space-between;align-items:end;margin-bottom:43px}.section-heading h2{margin:12px 0 0}.section-heading h2 em{color:#71805d}.search-form label{display:block;font-size:10px;letter-spacing:.1em;margin-bottom:7px}.search-form>div{display:flex;gap:7px}.search-form input{width:220px;background:transparent}.search-form .button{padding:10px 16px}.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.product-card{background:var(--paper);padding:12px 12px 22px}.product-art{height:170px;position:relative;display:grid;place-items:center;overflow:hidden;background:#ede2d4}.product-art:before{content:"";width:112px;height:112px;border-radius:50%;background:#d6b899;box-shadow:0 8px 15px #3a2b1e22}.product-art:after{content:"";position:absolute;width:82px;height:82px;border-radius:50%;background:#684a37}.product-art span{position:absolute;z-index:2;font:italic 32px var(--serif);color:#ead4b8}.product-art i{position:absolute;right:18px;top:13px;font-style:normal;color:#a8835c;font-size:22px}.art-p{background:#dfe4d2}.art-p:before{background:#f0e6d4}.art-p:after{width:98px;height:72px;border-radius:50% 50% 42% 42%;background:#ca8b5e;box-shadow:0 10px 12px #3a2b1e22}.art-b{background:#ead9c9}.art-b:before{background:#e7e4d9}.art-b:after{background:#81583e}.product-meta{display:flex;justify-content:space-between;color:#85877e;font-size:9px;letter-spacing:.11em;text-transform:uppercase;margin-top:16px}.product-meta strong{color:#55634a;font-size:12px;letter-spacing:0}.product-card h3{font:500 21px var(--serif);margin:5px 0}.product-card p{color:#74776e;font-size:12px;min-height:42px;margin-bottom:16px}.product-card .text-link{font-size:10px}.empty-state{grid-column:1/-1;padding:30px;background:var(--paper)}.teaching-note{background:#eeece3;padding:15px 18px;margin:30px 0 0;color:#62685c;font-size:11px}.teaching-note>span{display:block;color:#788465;margin-bottom:3px}.teaching-note code{font-size:11px;color:#7d5136}.reservation-section{background:#e8e8dc;padding:100px 11%;display:grid;grid-template-columns:.8fr 1.2fr;gap:12%;align-items:start}.reservation-copy h2{margin:20px 0}.reservation-copy h2 em{color:#788665}.reservation-copy>p{color:#696e63;max-width:320px}.reservation-detail{margin-top:60px;padding-top:20px;border-top:1px solid #c4c7b9;display:flex;gap:15px}.reservation-detail>span{font:italic 20px var(--serif);color:#9b704d}.reservation-detail strong,.reservation-detail small{display:block}.reservation-detail strong{font-size:12px}.reservation-detail small{color:#75796f;font-size:10px;margin-top:3px}.reservation-form{background:var(--paper);padding:36px 38px}.form-title{display:flex;justify-content:space-between;color:#7a836b;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:20px}.reservation-form label,.stack-form label,.admin-form label{font-size:10px;letter-spacing:.07em;font-weight:700;display:block;margin-bottom:15px}.reservation-form input,.reservation-form select,.reservation-form textarea,.stack-form input,.admin-form input,.admin-form textarea{display:block;width:100%;margin-top:6px;padding:10px 11px;border:1px solid var(--line);background:#fffefa;font-size:12px;letter-spacing:0;outline:none}.reservation-form input:focus,.reservation-form select:focus,.reservation-form textarea:focus,.stack-form input:focus,.admin-form input:focus,.admin-form textarea:focus{border-color:#788665}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:13px}.optional,.stack-form small{font-weight:400;color:#85877e}.button-wide{width:100%;margin-top:4px}.form-footnote{font-size:9px;text-align:center;color:#85877e;margin:12px 0 0}.closing{background:var(--green);color:var(--cream);text-align:center;padding:82px 20px}.closing>span{font-size:9px;letter-spacing:.2em;color:var(--lime)}.closing p{font:500 36px/1.2 var(--serif);margin:18px 0 26px}.site-footer{padding:27px 7.2%;display:flex;align-items:center;justify-content:space-between;background:#222f29;color:#d6d8cf;font-size:10px}.brand-footer{color:white}.brand-footer .brand-mark{color:var(--lime)}.site-footer>a:last-child{border-bottom:1px solid #81897e;padding-bottom:3px}.alert{padding:11px 7.2%;font-size:12px}.alert-success{background:#e3ecd9;color:#31462e}.alert-error{background:#f4e4dc;color:#843e2e}.flash-message{position:relative;z-index:4}.account-page{min-height:calc(100vh - 190px);padding:70px 20px;display:grid;place-items:center}.account-card{width:min(100%,500px);background:var(--paper);padding:46px}.account-card h1{font-size:46px;margin:15px 0}.account-card h1 em{color:#788665}.account-card>p{font-size:12px;color:#73776c}.stack-form{margin-top:28px}.account-switch{margin:16px 0 0!important;font-size:11px!important}.account-switch a{color:#526444;border-bottom:1px solid}.admin-page{padding:65px 9% 100px;min-height:75vh}.admin-heading{display:flex;justify-content:space-between;align-items:end;gap:20px}.admin-page h1{font-size:52px;margin:12px 0}.admin-page h1 em{color:#788665}.admin-heading p,.form-admin-page>p{color:#73776c;font-size:13px}.admin-tabs{display:flex;gap:24px;border-bottom:1px solid #d5d4ca;margin:37px 0 20px}.admin-tabs a{padding:0 0 12px;color:#777b70;font-size:12px}.admin-tabs a.active{border-bottom:2px solid var(--green);color:var(--green);font-weight:700}.table-wrap{overflow-x:auto;background:var(--paper)}table{border-collapse:collapse;width:100%;min-width:700px;text-align:left;font-size:12px}th{background:#efeee7;color:#72776a;font-size:9px;letter-spacing:.11em;text-transform:uppercase}th,td{padding:14px 16px;border-bottom:1px solid #eceae1}td strong,td small{display:block}td small{font-size:10px;color:#7b7e75;margin-top:3px}.status{padding:4px 8px;border-radius:20px;font-size:9px;white-space:nowrap}.status-active{background:#e5ecd9;color:#50633e}.status-muted{background:#edebe5;color:#74736d}.status-pending{background:#f4e6d5;color:#8a6036}.table-actions{display:flex;align-items:center;gap:13px}.table-actions a,.danger-link{font-size:11px;color:#55644a;text-decoration:underline}.danger-link{color:#9a4c3c;border:0;background:none;padding:0;cursor:pointer}.back-link{font-size:11px;display:inline-block;margin-bottom:28px}.form-admin-page{max-width:850px}.form-admin-page h1{margin-top:12px}.admin-form{margin-top:30px;background:var(--paper);padding:28px;max-width:620px}.check-label{display:flex!important;align-items:center;gap:9px}.check-label input{width:auto;margin:0}.form-actions{display:flex;align-items:center;gap:22px;margin-top:20px}.empty-state{font-size:13px}
-@media(max-width:850px){.hero{padding-left:8%;padding-right:8%}.section,.reservation-section{padding-left:8%;padding-right:8%}.product-grid{grid-template-columns:repeat(2,1fr)}.intro{grid-template-columns:.7fr 1.1fr;gap:20px}.intro-note{grid-column:2;padding-top:0}.reservation-section{gap:6%}.reservation-form{padding:28px}.site-header{padding:0 5%}.main-nav{gap:18px}}
-@media(max-width:600px){.site-header{height:72px;padding:0 5%}.main-nav{display:none}.header-actions{gap:12px}.hero{min-height:720px;padding:70px 8% 65px;grid-template-columns:1fr;align-content:start}.hero h1{font-size:57px}.hero-art{height:290px;margin-top:0}.sun-disc{width:235px;height:235px;right:20%;top:8px}.cup{width:170px;height:120px;top:100px;right:34%}.cup-handle{width:60px;height:60px;right:-41px;top:22px;border-width:12px}.saucer{width:225px;top:212px;right:27%}.steam-one{right:48%;top:26px}.steam-two{right:38%;top:18px}.art-caption{right:2%;bottom:6px}.hero-bottom{left:8%;right:8%;font-size:8px}.section,.reservation-section{padding:72px 7%}.intro{grid-template-columns:1fr;gap:14px}.intro h2{font-size:48px;margin-bottom:0}.intro-note{grid-column:auto;padding-top:0}.section-heading{align-items:start;gap:25px;flex-direction:column}.section-heading h2{font-size:44px}.search-form,.search-form>div{width:100%}.search-form input{flex:1;min-width:0}.product-grid{gap:10px}.product-card{padding:9px 9px 16px}.product-art{height:130px}.product-art:before{width:84px;height:84px}.product-art:after{width:64px;height:64px}.product-card h3{font-size:17px}.product-card p{font-size:11px;min-height:55px}.product-card .text-link{font-size:9px;gap:4px}.reservation-section{grid-template-columns:1fr;gap:34px}.reservation-copy h2{font-size:48px}.reservation-detail{margin-top:25px}.reservation-form{padding:24px 18px}.form-row{gap:8px}.site-footer{padding:24px 6%;gap:15px;flex-wrap:wrap}.site-footer>span{order:3;width:100%}.account-card{padding:30px 23px}.admin-page{padding:48px 6% 75px}.admin-heading{align-items:start;flex-direction:column}.admin-page h1{font-size:43px}.admin-heading .button{align-self:start}.admin-form{padding:20px 16px}.alert{padding-left:6%;padding-right:6%}}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  /* Paleta Chiral Tech (Dark/Gold) */
+  --bg-main: #0a0a0c;
+  --panel: #141416;
+  --text-main: #e2e4e9;
+  --accent-main: #f0b90b; /* Dorado Chiral */
+  --accent-dark: #b8860b;
+  --accent-hover: #fcd535;
+  --muted: #8a8d98;
+  --line: #27272a;
+  
+  /* Fuentes Técnicas */
+  --mono: "Space Mono", monospace;
+  --sans: "Inter", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg-main);
+  color: var(--text-main);
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+a { color: inherit; text-decoration: none; }
+button, input, select, textarea { font: inherit; }
+button, a { touch-action: manipulation; }
+
+.site-header {
+  height: 88px;
+  padding: 0 7.2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-main);
+  position: relative;
+  z-index: 5;
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 13px;
+  line-height: 1.05;
+  letter-spacing: .08em;
+  font-family: var(--mono);
+  text-transform: uppercase;
+}
+
+.brand strong { font-size: 17px; letter-spacing: .14em; color: var(--text-main); }
+.brand-mark { font-size: 28px; color: var(--accent-main); }
+
+.main-nav, .header-actions { display: flex; align-items: center; gap: 36px; }
+.main-nav a, .admin-link, .nav-button { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; font-family: var(--mono); }
+.main-nav a:hover, .admin-link:hover, .text-link:hover, .back-link:hover { color: var(--accent-main); }
+
+.admin-link { border-bottom: 1px solid var(--accent-dark); padding: 7px 0; color: var(--accent-main); }
+.inline-form { display: inline; }
+.nav-button { border: 0; background: none; cursor: pointer; color: var(--text-main); }
+
+.hero {
+  background: var(--panel);
+  background-image: radial-gradient(var(--line) 1px, transparent 1px);
+  background-size: 24px 24px;
+  color: var(--text-main);
+  min-height: 610px;
+  padding: 100px 11% 74px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+}
+
+.hero-copy { position: relative; z-index: 1; }
+
+.eyebrow, .section-kicker, .form-title, .teaching-note > span {
+  font-size: 10px;
+  letter-spacing: .18em;
+  font-weight: 700;
+  font-family: var(--mono);
+  text-transform: uppercase;
+}
+.eyebrow { color: var(--accent-main); }
+
+h1, h2, h3, p { margin-top: 0; }
+
+.hero h1, .section h2, .reservation-copy h2, .closing p, .account-card h1, .admin-page h1 {
+  font-size: clamp(40px, 5vw, 68px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  margin: 22px 0;
+}
+
+.hero h1 em, .section h2 em, .reservation-copy h2 em, .admin-page h1 em, .account-card h1 em {
+  font-family: var(--mono);
+  font-weight: 400;
+  color: var(--accent-main);
+  font-style: normal;
+}
+
+.hero-copy > p { max-width: 380px; color: var(--muted); margin: 0 0 30px; }
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding: 13px 20px;
+  border: 1px solid transparent;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  font-family: var(--mono);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.button:hover { transform: translateY(-2px); }
+
+.button-light { background: var(--accent-main); color: #000; }
+.button-light:hover { background: var(--accent-hover); box-shadow: 0 0 15px rgba(240,185,11,0.4); }
+
+.button-dark { background: transparent; color: var(--text-main); border-color: var(--line); }
+.button-dark:hover { background: var(--line); color: var(--accent-main); border-color: var(--accent-main); }
+
+/* --- TRANSFORMACIÓN DEL ARTE (Taza a CPU/Hardware) --- */
+.hero-art { height: 360px; position: relative; display: flex; align-items: center; justify-content: center; }
+
+.sun-disc {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px dashed var(--line);
+  background: transparent;
+  right: 7%;
+  top: 1%;
+}
+
+.cup {
+  width: 140px;
+  height: 140px;
+  border-radius: 12px;
+  background: #111;
+  border: 2px solid var(--accent-main);
+  position: absolute;
+  top: 110px;
+  right: 20%;
+  box-shadow: 0 0 40px rgba(240, 185, 11, 0.15);
+  z-index: 2;
+  display: grid;
+  place-items: center;
+}
+
+.coffee {
+  position: static;
+  width: 60%;
+  height: 60%;
+  background: var(--accent-main);
+  border-radius: 4px;
+  opacity: 0.85;
+}
+
+/* Ocultar elementos de la taza */
+.cup-handle, .saucer, .steam { display: none !important; }
+
+.art-caption {
+  position: absolute;
+  right: 0;
+  bottom: 22px;
+  font: italic 16px var(--mono);
+  color: var(--muted);
+}
+/* ---------------------------------------------------- */
+
+.hero-bottom {
+  position: absolute;
+  left: 11%;
+  right: 11%;
+  bottom: 27px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 9px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  font-family: var(--mono);
+  color: var(--muted);
+}
+
+.section { padding: 110px 11%; }
+.intro { display: grid; grid-template-columns: 1fr 1.2fr .9fr; gap: 44px; align-items: start; background: var(--panel); border-bottom: 1px solid var(--line); }
+
+.section-kicker { color: var(--muted); }
+.section-kicker span { padding-left: 12px; color: var(--accent-main); }
+.intro h2, .section-heading h2, .reservation-copy h2 { font-size: clamp(32px, 4vw, 48px); }
+.section h2 { margin-top: 0; }
+
+.intro-note { padding-top: 45px; color: var(--muted); }
+.intro-note p { max-width: 310px; margin-bottom: 24px; }
+
+.text-link {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 5px;
+  display: inline-flex;
+  gap: 14px;
+  text-transform: uppercase;
+  font-family: var(--mono);
+}
+.text-link span { color: var(--accent-main); font-weight: bold; }
+
+.menu-section { padding-top: 100px; padding-bottom: 90px; }
+.section-heading { display: flex; justify-content: space-between; align-items: end; margin-bottom: 43px; }
+.section-heading h2 { margin: 12px 0 0; }
+.section-heading h2 em { color: var(--accent-main); }
+
+.search-form label { display: block; font-size: 10px; letter-spacing: .1em; margin-bottom: 7px; color: var(--muted); text-transform: uppercase; font-family: var(--mono); }
+.search-form > div { display: flex; gap: 7px; }
+.search-form input {
+  width: 220px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  color: var(--text-main);
+  padding: 10px 12px;
+}
+.search-form input:focus { outline: none; border-color: var(--accent-main); }
+.search-form .button { padding: 10px 16px; }
+
+.product-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.product-card { background: var(--panel); padding: 16px; border: 1px solid var(--line); border-radius: 6px; }
+
+/* Modificamos los círculos de pan/café por cajas técnicas */
+.product-art {
+  height: 140px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: var(--bg-main);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+.product-art:before, .product-art:after { display: none; }
+.product-art span { position: absolute; z-index: 2; font: 700 42px var(--mono); color: var(--text-main); text-transform: uppercase; }
+.product-art i { position: absolute; right: 10px; top: 10px; font-style: normal; color: var(--accent-main); font-size: 16px; }
+.art-p, .art-b { background: #0f1014; }
+
+.product-meta {
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 9px;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+  font-family: var(--mono);
+  margin-top: 16px;
+}
+.product-meta strong { color: var(--accent-main); font-size: 12px; letter-spacing: 0; }
